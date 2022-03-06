@@ -8,7 +8,7 @@ type Props = {
 export function Toast(props: Props) {
   const { body, key } = props;
   return (
-    <div className="flex text-center mt-5 p-4 font-bold" style={{}} key={key}>
+    <div className="flex text-center mt-5 p-4 font-bold" key={key}>
       {body}
     </div>
   );
